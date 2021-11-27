@@ -17,6 +17,12 @@ In this repository, we have released a sample application that uses a compatible
 # coding flow
 https://github.com/LeoAndo/android12-splash-screen/pulls?q=is%3Apr+is%3Aclosed<br>
 
+# java code
+https://github.com/LeoAndo/android12-splash-screen/tree/main/BasicAppSample/app/src/javaVersion/java/com/example/basicappsample<br>
+
+# kotlin code
+https://github.com/LeoAndo/android12-splash-screen/tree/main/BasicAppSample/app/src/kotlinVersion/java/com/example/basicappsample<br>
+
 # refs
 https://github.com/LeoAndo/android-dev-summit-2021/issues/5#issuecomment-970318757<br>
 https://developer.android.com/guide/topics/ui/splash-screen/migrate<br>
