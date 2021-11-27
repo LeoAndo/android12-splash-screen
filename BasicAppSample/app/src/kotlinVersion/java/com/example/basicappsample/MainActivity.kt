@@ -6,6 +6,7 @@ import android.text.Editable
 import android.text.TextUtils
 import android.text.TextWatcher
 import android.view.KeyEvent
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.basicappsample.databinding.ActivityMainBinding
 import com.example.basicappsample.helpers.AnimationHelper
 import com.example.basicappsample.helpers.KeyboardHelpable
@@ -15,6 +16,7 @@ class MainActivity : AppCompatActivity(), KeyboardHelpable {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        installSplashScreen()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.textHello.text = "Hello, Android Java"

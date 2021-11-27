@@ -26,7 +26,7 @@
         <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an animated drawable.
         One of these is required.-->
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_baseline_bedtime_24</item>
-        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
 
         <!-- Set the theme of the Activity that directly follows your splash screen.-->
         <item name="postSplashScreenTheme">@style/Theme.BasicAppSample</item>
