@@ -1,12 +1,14 @@
 # Overview
 
-Android OS 12以降では、システムのデフォルトスプラッシュ画面が、すべてのアプリのコールドスタートおよびウォームスタートに常に適用される。<br>
-OS12のスプラッシュ画面の仕組みについては https://developer.android.com/about/versions/12/features/splash-screen#how 参照。<br>
-これにより、アプリでカスタムのスプラッシュ画面を作成している場合、以下の問題が発生します<br>
-- OS:12以降で「システムのデフォルトのスプラッシュ画面」とカスタムのスプラッシュ画面が２つ表示される
-- OS:11までとOS:12以降で表示するスプラッシュ画面が異なってしまう
+Starting with Android OS 12, the system default splash screen always applies to cold and warm starts for all apps. <br>
+See https://developer.android.com/about/versions/12/features/splash-screen#how for how the OS12 splash screen works. <br>
+This causes the following issues if you are creating a custom splash screen in your app <br>
+- On OS: 12 or later, "System default splash screen" and custom splash screens are displayed.
+- The splash screen displayed up to OS: 11 and after OS: 12 are different.
 
-本リポジトリでは、互換ライブラリを使用し、全てのOSバージョンで同じスプラッシュ画面を適用するサンプルアプリを公開しています.<br>
+In this repository, we have released a sample application that uses a compatible library and applies the same splash screen to all OS versions. <br>
+
+[日本語版README](https://github.com/LeoAndo/android12-splash-screen/blob/main/readme/README_JP.md)
 
 # capture
 
@@ -16,6 +18,12 @@ OS12のスプラッシュ画面の仕組みについては https://developer.and
 
 # coding flow
 https://github.com/LeoAndo/android12-splash-screen/pulls?q=is%3Apr+is%3Aclosed<br>
+
+# java code
+https://github.com/LeoAndo/android12-splash-screen/tree/main/BasicAppSample/app/src/javaVersion/java/com/example/basicappsample<br>
+
+# kotlin code
+https://github.com/LeoAndo/android12-splash-screen/tree/main/BasicAppSample/app/src/kotlinVersion/java/com/example/basicappsample<br>
 
 # refs
 https://github.com/LeoAndo/android-dev-summit-2021/issues/5#issuecomment-970318757<br>
