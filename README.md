@@ -8,6 +8,8 @@ This causes the following issues if you are creating a custom splash screen in y
 
 In this repository, we have released a sample application that uses a compatible library and applies the same splash screen to all OS versions. <br>
 
+[日本語版README](https://github.com/LeoAndo/android12-splash-screen/blob/main/readme/README_JP.md)
+
 # capture
 
 | Pixel 4 OS12 | Pixel 4 OS8 |
