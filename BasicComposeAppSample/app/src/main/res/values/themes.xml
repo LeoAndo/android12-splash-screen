@@ -19,6 +19,19 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Theme.BasicComposeAppSample.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">@color/teal_700</item>
+
+        <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an animated drawable.
+        One of these is required.-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_baseline_bedtime_24</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+
+        <!-- Set the theme of the Activity that directly follows your splash screen.-->
+        <item name="postSplashScreenTheme">@style/Theme.BasicComposeAppSample</item>
+    </style>
+
     <style name="Theme.BasicComposeAppSample.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.BasicComposeAppSample.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
