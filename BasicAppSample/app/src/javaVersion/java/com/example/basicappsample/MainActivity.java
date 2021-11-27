@@ -8,6 +8,7 @@ import android.view.KeyEvent;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.splashscreen.SplashScreen;
 
 import com.example.basicappsample.databinding.ActivityMainBinding;
 import com.example.basicappsample.helpers.AnimationHelper;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements KeyboardHelpable 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SplashScreen.installSplashScreen(this);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         binding.textHello.setText("Hello, Android Java");
