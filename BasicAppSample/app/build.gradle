@@ -69,4 +69,6 @@ dependencies {
     // Splash animationで利用している
     def lottieVersion = "3.4.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    implementation 'androidx.core:core-splashscreen:1.0.0-alpha02'
 }
