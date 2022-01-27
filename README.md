@@ -10,6 +10,11 @@ In this repository, we have released a sample application that uses a compatible
 
 [日本語版README](https://github.com/LeoAndo/android12-splash-screen/blob/main/readme/README_JP.md)
 
+# development environment
+
+<img width="686" alt="スクリーンショット 2022-01-27 13 56 37" src="https://user-images.githubusercontent.com/16476224/151294522-b048519a-04c4-4ddc-a220-7b9fbece1b8e.png">
+
+
 # capture
 
 | Pixel 4 OS12 | Pixel 4 OS8 |

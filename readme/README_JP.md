@@ -8,6 +8,10 @@ OS12のスプラッシュ画面の仕組みについては https://developer.and
 
 本リポジトリでは、互換ライブラリを使用し、全てのOSバージョンで同じスプラッシュ画面を適用するサンプルアプリを公開しています.<br>
 
+# development environment
+
+<img width="686" alt="スクリーンショット 2022-01-27 13 56 37" src="https://user-images.githubusercontent.com/16476224/151294522-b048519a-04c4-4ddc-a220-7b9fbece1b8e.png">
+
 # capture
 
 | Pixel 4 OS12 | Pixel 4 OS8 |
